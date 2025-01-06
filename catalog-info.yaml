@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: react-app-3
+  description: Add react app to IDP
+  annotations:
+    backstage.io/techdocs.ref: dir:.
+
+spec:
+  type: service
+  lifecycle: production
+  owner: khushi.sharma@harness.io
